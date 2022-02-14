@@ -1,0 +1,91 @@
+.menu-principal{
+    font-size: 14px;    
+}
+
+.menu-icons{
+    font-size: 20px;
+}
+
+.planos-geral{
+    width: 100%;
+    background-color: #ededed;
+    text-align: center;
+    float: left;
+    position: relative;
+}   
+
+.planos-fibra{
+    margin: 5vh auto;
+    max-width: 900px;
+    position: relative;
+    
+}
+
+.planos-geral h1{
+    font-size: 50px;
+    margin-top: 1rem;
+    font-weight: 700;
+}
+
+.planos-geral strong{
+    color: #f4972f;
+}
+
+.planos-gpon{
+    display: flex;
+    float: left;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.infoplanos{
+    font-size: 13px;
+    background-color: #ededed;
+    margin-top: 23rem;
+    padding: 4rem 12rem;
+}
+
+.infoplanos a{
+    margin-top: 1rem;
+}
+
+.descplanos{
+    margin: 5vh auto;
+    max-width: 900px;
+    text-align: start;
+    margin-top: 1.5rem;
+    font-size: 10px;    
+}
+
+.viabilidademap{
+    width: 100%;
+    background-color: #ffffff;
+    text-align: center;
+    float: left;
+    position: relative;
+    margin-top: 1rem;
+}
+
+.viabilidademap h1{
+    font-size: 50px;
+    margin-top: 1rem;
+    font-weight: 700;
+}
+
+.viabilidademap strong{
+    color: #f4972f;
+}
+
+.viabilidademap p{
+    font-size: 30px;
+}
+
+.bairrossize{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+/* footer*/
+
+
+
