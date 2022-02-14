@@ -88,4 +88,11 @@
 /* footer*/
 
 
+@media screen and (max-width: 900px){
+    .planos-geral{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
 
+
+}
