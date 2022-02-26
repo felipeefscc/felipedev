@@ -1,97 +1,161 @@
-.menu-principal{
-    font-size: 14px;    
-}
-
-.menu-icons{
-    font-size: 20px;
-}
-
-.planos-geral{
-    width: 100%;
-    background-color: #ededed;
-    text-align: center;
-    float: left;
-    position: relative;
-}   
-
-.planos-fibra{
-    margin: 5vh auto;
-    max-width: 900px;
-    position: relative;
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, #00b89d, #057e6c);
     
 }
 
-.planos-geral h1{
-    font-size: 50px;
-    margin-top: 1rem;
-    font-weight: 700;
+.box{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 15px;
+    width: 25%;
 }
 
-.planos-geral strong{
-    color: #f4972f;
-}
-
-.planos-gpon{
-    display: flex;
-    float: left;
-    margin-top: 1rem;
-    margin-left: 1rem;
-}
-
-.infoplanos{
-    font-size: 13px;
-    background-color: #ededed;
-    margin-top: 23rem;
-    padding: 4rem 12rem;
-}
-
-.infoplanos a{
-    margin-top: 1rem;
-}
-
-.descplanos{
-    margin: 5vh auto;
-    max-width: 900px;
-    text-align: start;
-    margin-top: 1.5rem;
-    font-size: 10px;    
-}
-
-.viabilidademap{
-    width: 100%;
-    background-color: #ffffff;
+.logo{
     text-align: center;
-    float: left;
+    margin-top: 1rem;
+
+}
+
+fieldset{
+    border: 3px solid  #ff9700, 0.5;
+    margin-top: 1.5rem;
+    
+}
+
+legend{
+    border: 1px solid #ff9700;
+    padding: 10px;
+    text-align: center;
+    background-color: #ff9700;
+    border-radius: 8px;
+}
+
+.inputBox{
     position: relative;
-    margin-top: 1rem;
 }
 
-.viabilidademap h1{
-    font-size: 50px;
-    margin-top: 1rem;
-    font-weight: 700;
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
 }
 
-.viabilidademap strong{
+.labelinput{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.inputUser:focus ~ .labelinput, 
+.inputUser:valid ~ .labelinput{
+    top: -70%;
+    font-size: 12px;
     color: #f4972f;
 }
 
-.viabilidademap p{
-    font-size: 30px;
+#data_nascimento{
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 13px;
 }
 
-.bairrossize{
-    font-size: 25px;
-    font-weight: 700;
+#planos{
+    border: none;
+    padding: 0.4rem 0.5rem;
+    border-radius: 10px;
+    outline: none;
+    font-size: 13px;
 }
 
-/* footer*/
+#submit{
+    background-color: #f4972f;
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
 
+#submit:hover{
+    background-color: #ff8800;
+}
+
+
+
+@media screen and (max-width: 1400px){
+
+    .body{
+        height: 120vh;
+    }
+
+    .box{
+        width: 35%;
+        top: 80%;
+        margin-bottom: 1rem;
+    }
+
+}
+
+@media screen and (max-width: 1200px){
+
+    .box{
+        width: 60%;
+        top: 70%;
+        margin-bottom: 1rem;
+    }
+
+}
+
+@media screen and (max-width: 1000px){
+
+
+    .box{
+        width: 65%;
+        top: 70%;
+    }
+}
 
 @media screen and (max-width: 900px){
-    .planos-geral{
-        flex-wrap: wrap;
-        flex-direction: column;
+
+    .box{
+        width: 80%;
+        top: 70%
+    }
+
+
+}
+
+@media screen and (max-width: 700px){
+
+        .box{
+            width: 80%;
+            top: 70%
+        }
+
+
+}
+@media screen and (max-width: 400px){
+
+    .box{
+        width: 90%;
+        top: 75%
     }
 
 
